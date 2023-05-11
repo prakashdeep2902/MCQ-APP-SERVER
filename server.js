@@ -4,7 +4,7 @@ import cors from 'cors'
 import { config } from "dotenv";
 import router from "./Router/route.js";
 import connect from "./database/conn.js";
-// import path from 'path'
+const PORT = process.env.PORT || 8000
 
 
 const app = express();
@@ -23,7 +23,7 @@ config()
 // });
 
 // port
-const PORT = process.env.PORT || 8000
+
 
 
 
