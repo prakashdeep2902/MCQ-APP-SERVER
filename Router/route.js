@@ -4,7 +4,7 @@ import {getQuestions,insertQuestions,dropQuestions,getResult,storeResult,dropRes
 
 const router=Router();
 
-// Questions routes 
+
 
 router.get('/questions',getQuestions)
 router.post('/questions',insertQuestions)
@@ -12,7 +12,7 @@ router.delete('/questions',dropQuestions)
 
 
 
-// result routes
+
 router.get('/result',getResult)
 router.post('/result',storeResult)
 router.delete('/result',dropResult)

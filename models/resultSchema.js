@@ -2,7 +2,7 @@
 import mongoose from "mongoose";
 const {Schema}=mongoose;
 
-// **********questions models
+
 
 const resultModel=new Schema({
 

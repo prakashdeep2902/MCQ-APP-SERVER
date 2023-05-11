@@ -112,4 +112,4 @@ export default[
 
 ]
 
-export const answer=[2,2,2,2,2,2,2,2,2,2];
+export const answer=[1,2,2,1,3,2,2,1,1,2];
