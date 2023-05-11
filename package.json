@@ -7,8 +7,6 @@
   "scripts": {
     "start": "node server.js",
     "build": "webpack --config webpack.config.js"
-
-    
   },
   "keywords": [],
   "author": "",
@@ -20,5 +18,8 @@
     "mongoose": "^7.1.0",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.1"
   }
 }
